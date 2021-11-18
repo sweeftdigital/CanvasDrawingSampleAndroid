@@ -7,13 +7,10 @@ import android.util.AttributeSet
 import android.util.Property
 import android.view.View
 import android.view.animation.AccelerateDecelerateInterpolator
-import android.view.animation.AccelerateInterpolator
-import android.view.animation.AnticipateOvershootInterpolator
 import androidx.core.view.doOnPreDraw
 
 @Suppress("MemberVisibilityCanBePrivate")
 class MovingLightView : View {
-
 
     private val linePaint = Paint(Paint.ANTI_ALIAS_FLAG)
         .apply {
